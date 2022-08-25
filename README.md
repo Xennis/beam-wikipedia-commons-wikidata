@@ -1,4 +1,7 @@
-# Function – Park data
+# Park data
+
+Apache Beam pipelines with fetches park data from Wikidata and enriches it with
+data from Wikipedia and Wikimedia Commons.
 
 ## Local development
 
