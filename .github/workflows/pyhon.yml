@@ -12,13 +12,9 @@ jobs:
         python-version: '3.8'
     - name: Install dependencies
       run: pip install --requirement requirements.txt
-      working-directory: pipelines/places
     - name: Check format
       run: make format-check
-      working-directory: pipelines/places
     - name: Check types
       run: make mypy
-      working-directory: pipelines/places
     - name: Run tests
       run: make test
-      working-directory: pipelines/places
